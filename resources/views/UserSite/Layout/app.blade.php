@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
 
     <!-- Title -->
-    <title>Medicalpress | Just another Website</title>
+    <title>Dr. Dewan Shamsul Asif</title>
 
     <!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width) and setting the initial page zoom level to be 1 (initial-scale=1.0) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
     <!-- favicon -->
     <link rel="shortcut icon" href="images/favicon-new.png">
 
     <!-- Google Web Font -->
-    <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,500,600,700,800,900,300,200" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,100,500,600,700,800,900,300,200" rel="stylesheet"
+          type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css">
     <!-- Include the bootstrap stylesheet -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}" type="text/css" media="all">
     <!-- Flexslider stylesheet -->
@@ -38,17 +40,17 @@
 
 
     <!--[if lt IE 9]>
-{{--<!--    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>-->--}}
+    {{--<!--    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>-->--}}
 {{--<!--    <script src="js/respond.min.js"></script>-->--}}
     <![endif]-->
 </head>
 
 <body>
-@include('Layout.header')
+@include('UserSite.Layout.header')
 
 @yield('content')
 
-
+@include('UserSite.Layout.footer')
 
 <a href="#top" id="scroll-top"></a>
 
