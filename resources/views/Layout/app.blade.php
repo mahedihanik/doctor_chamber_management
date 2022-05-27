@@ -45,7 +45,6 @@
 
 <body>
 @include('Layout.header')
-@include('Layout.Contents.slider')
 
 @yield('content')
 

@@ -56,7 +56,7 @@
             <div class="col-md-8">
                 <div class="slogan-section animated fadeInUp clearfix">
                     <h3>Make an Appointment</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <p>ডাক্তারের সিরিয়াল নেওয়ার জন্য নিচের ফর্মটি পূরণ করুন</p>
                 </div>
                 <div class="appointment-form animated fadeInDown clearfix">
 
@@ -65,7 +65,7 @@
                         <div class="row">
                             <div class="col-sm-12" style="margin-bottom: 2rem !important;">
                                 <select style="background-color: #f0f5f7 !important;  border-bottom: 2px solid #d3d8da;color: #a7adaf;font-weight: 500" class="form-control" id="company" name="employee_role">
-                                    <option value="">Please Select A Chamber First</option>
+                                    <option value="" disabled selected>Please Select A Chamber First  ( অপশন থেকে ডাক্তারের চেম্বার ও সময় নির্বাচন করুন )</option>
                                     <option value="admin">Every Saturday - Anwer Khan Modern Medical College Hospital [ 10.00 AM - 01.00 PM ]</option>
                                     <option value="user">Every Monday - Anwer Khan Modern Medical College Hospital [ 07.00 PM - 09.00 PM ]</option>
                                     <option value="user">Every Friday - Al Manar Hospital [ 05.00 PM - 06.30 PM ]</option>
@@ -87,7 +87,15 @@
                                 <input type="text" name="date" id="datepicker" class="required" placeholder="Appointment Date" title="* Please provide appointment date">
                             </div>
                         </div>
-                        <textarea name="message" id="app-message" class="required"  placeholder="Message" title="* Please provide your message"></textarea>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="text" name="age" id="app-name" class="required" placeholder="Age ( years )" title="* Please provide your age"/>
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="text" name="gender" id="app-name" class="required" placeholder="Gender" title="* Please provide your gender"/>
+                            </div>
+                        </div>
+                        <textarea name="message" id="app-message" class="required"  placeholder="Message ( সংক্ষেপে আপনার সমস্যার কথা বলুন )" title="* Please provide your message"></textarea>
                         <input type="submit" name="Submit" class="btn form-submit-btn" value="SEND"/>
                         <img src="images/loader.gif" class="ajax-loader" id="appointment-loader" alt="Loading...">
                         <input type="hidden" name="action" value="make_appointment">

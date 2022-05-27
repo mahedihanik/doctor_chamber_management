@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 ">
-                <p>Welcome to MedicalPress a Premium Medical Theme</p>
+                <p>Brain & Spine Surgeon</p>
             </div>
             <!--opening hours-->
             <div class="col-md-7 text-right">
@@ -23,7 +23,7 @@
         <!-- Website Logo -->
         <div class="logo clearfix">
             <a href="index.html">
-                <img src="images/temp-images/logo-two.png" alt="Medicalpress">
+                <img src="images/dr.png" alt="Medicalpress">
             </a>
         </div>
 
