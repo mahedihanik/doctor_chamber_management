@@ -40,16 +40,7 @@
                     <a href="{{url('/newsAndBlogs')}}">News & Blogs</a>
                 </li>
                 <li>
-                    <a href="">Services</a>
-                </li>
-                <li>
-                    <a href="">Gallery</a>
-                </li>
-                <li>
-                    <a href="">Shop</a>
-                </li>
-                <li>
-                    <a href="">Pages</a>
+                    <a href="{{url('/researchAndPublication')}}">Research & Publications</a>
                 </li>
                 <li>
                     <a href="">Appointment</a>

@@ -22,4 +22,6 @@ Route::get('/doctorProfile', function () {
 Route::get('/newsAndBlogs', function () {
     return view('UserSite.Pages.newsAndBlogs');
 });
-
+Route::get('/researchAndPublication', function () {
+    return view('UserSite.Pages.researchAndPublications');
+});
