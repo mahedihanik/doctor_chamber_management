@@ -4,7 +4,7 @@
         <ul class="slides">
             <!--slide start-->
             <li>
-                <img src="images/temp-images/slide-one.jpg" alt="Medical Services <span>That You Can Trust</span>"/>
+                <img src="images/front1.jpg" alt="Medical Services <span>That You Can Trust</span>"/>
                 <div class="content-wrapper clearfix">
                     <div class="container">
                         <div class="slide-content clearfix ">

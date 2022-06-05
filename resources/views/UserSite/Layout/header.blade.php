@@ -43,7 +43,7 @@
                     <a href="{{url('/researchAndPublication')}}">Research & Publications</a>
                 </li>
                 <li>
-                    <a href="">Appointment</a>
+                    <a href="{{url('/makeAppointment')}}">Appointment</a>
                 </li>
                 <li>
                     <a href="">Contact</a>

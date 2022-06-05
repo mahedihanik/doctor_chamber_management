@@ -25,3 +25,8 @@ Route::get('/newsAndBlogs', function () {
 Route::get('/researchAndPublication', function () {
     return view('UserSite.Pages.researchAndPublications');
 });
+
+Route::get('/makeAppointment', function () {
+    return view('UserSite.Pages.appointment');
+});
+
