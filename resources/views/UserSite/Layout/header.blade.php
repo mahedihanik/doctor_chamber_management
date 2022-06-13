@@ -46,7 +46,7 @@
                     <a href="{{url('/makeAppointment')}}">Appointment</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="{{url('/contact')}}">Contact</a>
                 </li>
             </ul>
         </nav>

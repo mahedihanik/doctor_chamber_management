@@ -30,3 +30,12 @@ Route::get('/makeAppointment', function () {
     return view('UserSite.Pages.appointment');
 });
 
+Route::get('/contact', function () {
+    return view('UserSite.Pages.contact');
+});
+
+Route::get('/blognewsread', function () {
+    return view('UserSite.Pages.newsBlogsReadMore');
+});
+
+
