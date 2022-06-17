@@ -22,30 +22,32 @@
 
         <!-- Website Logo -->
         <div class="logo clearfix">
-            <a href="">
+            <a href="{{url('/')}}">
                 <img src="images/dr.png" alt="Medicalpress">
             </a>
         </div>
-
         <!-- Main Navigation -->
         <nav class="main-menu">
             <ul class="header-nav clearfix" id="menu-main-menu">
-                <li class="current-menu-item page_item">
+                <li class="{{(request()->is('/'))?'current-menu-item':''}}">
                     <a href="{{url('/')}}">Home</a>
                 </li>
-                <li>
+                <li class="{{(request()->is('doctorProfile'))?'current-menu-item':''}}">
                     <a href="{{url('/doctorProfile')}}">Doctor Profile</a>
                 </li>
-                <li>
-                    <a href="{{url('/newsAndBlogs')}}">News & Blogs</a>
+                <li class="{{(request()->is('gallery'))?'current-menu-item':''}}">
+                    <a href="{{url('/gallery')}}">Gallery</a>
                 </li>
-                <li>
+                <li class="{{(request()->is('newsAndBlogs'))?'current-menu-item':''}}">
+                    <a href="{{url('/newsAndBlogs')}}">News & Blogs</a>
+                </li >
+                <li class="{{(request()->is('researchAndPublication'))?'current-menu-item':''}}">
                     <a href="{{url('/researchAndPublication')}}">Research & Publications</a>
                 </li>
-                <li>
+                <li class="{{(request()->is('makeAppointment'))?'current-menu-item':''}}">
                     <a href="{{url('/makeAppointment')}}">Appointment</a>
                 </li>
-                <li>
+                <li class="{{(request()->is('contact'))?'current-menu-item':''}}">
                     <a href="{{url('/contact')}}">Contact</a>
                 </li>
             </ul>

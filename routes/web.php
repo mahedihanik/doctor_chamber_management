@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,6 +37,18 @@ Route::get('/contact', function () {
 
 Route::get('/blognewsread', function () {
     return view('UserSite.Pages.newsBlogsReadMore');
+});
+Route::get('/gallery', function () {
+    return view('UserSite.Pages.gallery');
+});
+
+Route::get('/clear', function() {
+
+Artisan::call('cache:clear');
+Artisan::call('config:cache');
+Artisan::call('view:clear');
+Artisan::call('optimize');
+return "Cleared!";
 });
 
 

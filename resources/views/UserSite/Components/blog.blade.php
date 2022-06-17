@@ -22,7 +22,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat&hellip; </p>
                     </div>
                 </article>
-                <a class="read-more" href="image-post-format.html">Read More</a>
+                <a class="read-more" href="{{url('blognewsread')}}">Read More</a>
             </div>
 
             <div class="col-md-4">

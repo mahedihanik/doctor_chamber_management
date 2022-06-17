@@ -189,121 +189,121 @@
                     <aside class="sidebar clearfix">
                         <section  class="widget tabs-widget">
                             <!--tabs widget sidebar-->
-                            <div class="tabs clearfix">
-                                <div class = "tab-head active">
-                                    <h6>Popular</h6>
-                                </div>
-                                <div class = "tab-head ">
-                                    <h6>Latest</h6>
-                                </div>
-                                <div class = "tab-head ">
-                                    <h6>Comments</h6>
-                                </div>
-                                <div class="tabs-content clearfix">
-                                    <div class="tab-post-listing clearfix">
-                                        <figure>
-                                            <a href="#">
-                                                <img src="images/temp-images/news-2-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-2" />
-                                            </a>
-                                        </figure>
-                                        <div class="post-content">
-                                            <h6><a href="#">Image Post Format</a></h6>
-                                            <span>May 10, 2014</span>
-                                        </div>
-                                    </div>
-                                    <div class="tab-post-listing clearfix">
-                                        <figure>
-                                            <a href="#">
-                                                <img src="images/temp-images/gallery-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="gallery-1" />
-                                            </a>
-                                        </figure>
-                                        <div class="post-content">
-                                            <h6><a href="#">Gallery Post Format</a></h6>
-                                            <span>May 10, 2014</span>
-                                        </div>
-                                    </div>
-                                    <div class="tab-post-listing clearfix">
-                                        <figure>
-                                            <a href="#">
-                                                <img src="images/temp-images/news-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-1" />
-                                            </a>
-                                        </figure>
-                                        <div class="post-content">
-                                            <h6><a href="#">Standard Post Format with Featured Image</a></h6>
-                                            <span>May 06, 2014</span>
-                                        </div>
-                                    </div>
-                                </div><div class="tabs-content clearfix">
-                                    <div class="tab-post-listing clearfix">
-                                        <figure>
-                                            <a href="#">
-                                                <img src="images/temp-images/news-2-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-2" />
-                                            </a>
-                                        </figure>
-                                        <div class="post-content">
-                                            <h6><a href="#">Image Post Format</a></h6>
-                                            <span>May 10, 2014</span>
-                                        </div>
-                                    </div>
-                                    <div class="tab-post-listing clearfix">
-                                        <figure>
-                                            <a href="#">
-                                                <img src="images/temp-images/gallery-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="gallery-1" />
-                                            </a>
-                                        </figure>
-                                        <div class="post-content">
-                                            <h6><a href="#">Gallery Post Format</a></h6>
-                                            <span>May 10, 2014</span>
-                                        </div>
-                                    </div>
-                                    <div class="tab-post-listing clearfix">
-                                        <figure>
-                                            <a href="#">
-                                                <img src="images/temp-images/news-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-1" />
-                                            </a>
-                                        </figure>
-                                        <div class="post-content">
-                                            <h6><a href="#">Standard Post Format with Featured Image</a></h6>
-                                            <span>May 06, 2014</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tabs-content clearfix">
-                                    <div class="tab-post-listing clearfix">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt='person' src="images/temp-images/person1.jpeg" />
-                                            </a>
-                                        </figure>
-                                        <div class="post-content">
-                                            <h6><a href="#">Image Post Format</a></h6>
-                                            <span>Ut wisi enim ad&hellip;</span>
-                                        </div>
-                                    </div>
-                                    <div class="tab-post-listing clearfix">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt='person' src="images/temp-images/person2.jpeg" />
-                                            </a>
-                                        </figure>
-                                        <div class="post-content">
-                                            <h6><a href="#">Image Post Format</a></h6>
-                                            <span>Lorem ipsum dolor sit&hellip;</span>
-                                        </div>
-                                    </div>
-                                    <div class="tab-post-listing clearfix">
-                                        <figure>
-                                            <a href="#">
-                                                <img alt='person' src="images/temp-images/person3.jpeg" />
-                                            </a>
-                                        </figure>
-                                        <div class="post-content">
-                                            <h6><a href="#">Image Post Format</a></h6>
-                                            <span>Typi non habent claritatem&hellip;</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+{{--                            <div class="tabs clearfix">--}}
+{{--                                <div class = "tab-head active">--}}
+{{--                                    <h6>Popular</h6>--}}
+{{--                                </div>--}}
+{{--                                <div class = "tab-head ">--}}
+{{--                                    <h6>Latest</h6>--}}
+{{--                                </div>--}}
+{{--                                <div class = "tab-head ">--}}
+{{--                                    <h6>Comments</h6>--}}
+{{--                                </div>--}}
+{{--                                <div class="tabs-content clearfix">--}}
+{{--                                    <div class="tab-post-listing clearfix">--}}
+{{--                                        <figure>--}}
+{{--                                            <a href="#">--}}
+{{--                                                <img src="images/temp-images/news-2-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-2" />--}}
+{{--                                            </a>--}}
+{{--                                        </figure>--}}
+{{--                                        <div class="post-content">--}}
+{{--                                            <h6><a href="#">Image Post Format</a></h6>--}}
+{{--                                            <span>May 10, 2014</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="tab-post-listing clearfix">--}}
+{{--                                        <figure>--}}
+{{--                                            <a href="#">--}}
+{{--                                                <img src="images/temp-images/gallery-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="gallery-1" />--}}
+{{--                                            </a>--}}
+{{--                                        </figure>--}}
+{{--                                        <div class="post-content">--}}
+{{--                                            <h6><a href="#">Gallery Post Format</a></h6>--}}
+{{--                                            <span>May 10, 2014</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="tab-post-listing clearfix">--}}
+{{--                                        <figure>--}}
+{{--                                            <a href="#">--}}
+{{--                                                <img src="images/temp-images/news-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-1" />--}}
+{{--                                            </a>--}}
+{{--                                        </figure>--}}
+{{--                                        <div class="post-content">--}}
+{{--                                            <h6><a href="#">Standard Post Format with Featured Image</a></h6>--}}
+{{--                                            <span>May 06, 2014</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div><div class="tabs-content clearfix">--}}
+{{--                                    <div class="tab-post-listing clearfix">--}}
+{{--                                        <figure>--}}
+{{--                                            <a href="#">--}}
+{{--                                                <img src="images/temp-images/news-2-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-2" />--}}
+{{--                                            </a>--}}
+{{--                                        </figure>--}}
+{{--                                        <div class="post-content">--}}
+{{--                                            <h6><a href="#">Image Post Format</a></h6>--}}
+{{--                                            <span>May 10, 2014</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="tab-post-listing clearfix">--}}
+{{--                                        <figure>--}}
+{{--                                            <a href="#">--}}
+{{--                                                <img src="images/temp-images/gallery-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="gallery-1" />--}}
+{{--                                            </a>--}}
+{{--                                        </figure>--}}
+{{--                                        <div class="post-content">--}}
+{{--                                            <h6><a href="#">Gallery Post Format</a></h6>--}}
+{{--                                            <span>May 10, 2014</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="tab-post-listing clearfix">--}}
+{{--                                        <figure>--}}
+{{--                                            <a href="#">--}}
+{{--                                                <img src="images/temp-images/news-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-1" />--}}
+{{--                                            </a>--}}
+{{--                                        </figure>--}}
+{{--                                        <div class="post-content">--}}
+{{--                                            <h6><a href="#">Standard Post Format with Featured Image</a></h6>--}}
+{{--                                            <span>May 06, 2014</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="tabs-content clearfix">--}}
+{{--                                    <div class="tab-post-listing clearfix">--}}
+{{--                                        <figure>--}}
+{{--                                            <a href="#">--}}
+{{--                                                <img alt='person' src="images/temp-images/person1.jpeg" />--}}
+{{--                                            </a>--}}
+{{--                                        </figure>--}}
+{{--                                        <div class="post-content">--}}
+{{--                                            <h6><a href="#">Image Post Format</a></h6>--}}
+{{--                                            <span>Ut wisi enim ad&hellip;</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="tab-post-listing clearfix">--}}
+{{--                                        <figure>--}}
+{{--                                            <a href="#">--}}
+{{--                                                <img alt='person' src="images/temp-images/person2.jpeg" />--}}
+{{--                                            </a>--}}
+{{--                                        </figure>--}}
+{{--                                        <div class="post-content">--}}
+{{--                                            <h6><a href="#">Image Post Format</a></h6>--}}
+{{--                                            <span>Lorem ipsum dolor sit&hellip;</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="tab-post-listing clearfix">--}}
+{{--                                        <figure>--}}
+{{--                                            <a href="#">--}}
+{{--                                                <img alt='person' src="images/temp-images/person3.jpeg" />--}}
+{{--                                            </a>--}}
+{{--                                        </figure>--}}
+{{--                                        <div class="post-content">--}}
+{{--                                            <h6><a href="#">Image Post Format</a></h6>--}}
+{{--                                            <span>Typi non habent claritatem&hellip;</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                         </section>
 
                         <!--categories-->
